@@ -1,9 +1,9 @@
-/*
- * CursorMethods.asm
- *
- *  Created: 17/11/2016 16:42:35
- *   Author: AL4413
- */ 
+;
+; CursorMethods.asm
+;
+; Created: 17/11/2016 16:42:35
+; Authors: AL4413, MV914
+;
  
 MemCursorWrite:										;Writes to driver board the memory 46-49, cursor position from r19-r22 
 		push r17

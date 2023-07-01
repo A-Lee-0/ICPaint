@@ -1,9 +1,9 @@
-/*
- * UIMethods.asm
- *
- *  Created: 22/11/2016 14:03:46
- *   Author: al4413
- */ 
+;
+; UIMethods.asm
+;
+; Created: 22/11/2016 14:03:46
+; Authors: AL4413, MV914
+;
 
  DrawUserInterface:
 		push r25

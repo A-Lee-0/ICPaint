@@ -1,10 +1,10 @@
-/*
- * GraphicalMethods.asm
- *
- *  Created: 14/11/2016 15:44:17
- *   Author: AL4413
- */
-
+;
+; GraphicalMethods.asm
+;
+; Created: 14/11/2016 15:44:17
+; Authors: AL4413, MV914
+;
+ 
 ThreeBytesFromColour:						;creates separate rgb bytes in r22-24 from a 2 byte colour in r25/26
 											;In two bytes, data stored as RRRRRGGG GGGBBBBB
 		;Extract 5 Red bits from the high byte (r26)

@@ -1,3 +1,11 @@
+;
+; Definitions.inc
+;
+; Created: 24/11/2016 13:09:26
+; Authors : AL4413, MV914
+;
+
+
 ;16 Bit Colours
 #define	COLOUR_BLACKL           0x00
 #define	COLOUR_BLACKH           0x00

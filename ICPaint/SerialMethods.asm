@@ -1,9 +1,12 @@
-/*
- * SerialMethods.asm
- *
- *  Created: 24/11/2016 13:11:57
- *   Author: AL4413
- */ 
+;
+; SerialMethods.asm
+;
+; Created: 24/11/2016 13:11:57
+; Authors: AL4413, MV914
+;
+; File also contains code written by Prof. Mark Neil, Imperial College. Accreditation is commented below.
+
+ 
 SerialTestLoop: 				;Debug method - writes $ff to register $63 on the driver (foreground colour low byte), and then reads it back. Used with oscilliscope on MISO/MOSI pins to see data transfer.
 		call SerialTestWrite
 
@@ -30,7 +33,11 @@ SerialTestRead:					;Debug method - reads value of register $63 back from driver
 		call ReadReg
 		out portd,r17
 		ret
-
+		
+; Name : SPI_MasterInit and SPI_MasterTransmit methods
+; Author : Prof. Mark Neil, Imperial College, Photonics Group
+; Date : 2016
+; Available : https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-physics/ug-labs/year-3/microprocessors/6_Serial_Parallel.pdf
 SPI_MasterInit:					;Configure device as master, and set clock rate. Set I/O directions on portB as required for 4 wire SPI
 		push r17
 		

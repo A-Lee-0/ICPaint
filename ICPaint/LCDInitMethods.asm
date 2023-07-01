@@ -1,9 +1,9 @@
-/*
- * LCDInitMethods.asm
- *
- *  Created: 14/11/2016 15:45:32
- *   Author: AL4413
- */ 
+;
+; LCDInitMethods.asm
+;
+; Created: 14/11/2016 15:45:32
+; Authors: AL4413, MV914
+;
  
 DisplayOn:						;Boolean 'on' argument in r16 ($00=off,$ff=on). 
 								;Sets the 'LCD Display Off' bit in the 'Power and Display Control Register' (PWRR)

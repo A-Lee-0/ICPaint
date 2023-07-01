@@ -1,3 +1,8 @@
+; Name : LCD1.asm Delay Methods
+; Author : Dr Costas Foudas, Imperial College, High Energy Physics division
+; Date : 2001
+; Available : https://www.imperial.ac.uk/media/imperial-college/faculty-of-natural-sciences/department-of-physics/ug-labs/year-3/microprocessors/assembler-codes/LCD1.asm
+
 ;********************   DELAY ROUTINES ********************************************
 BigDEL:
              rcall Del49ms

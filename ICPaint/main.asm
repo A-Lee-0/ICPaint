@@ -1,8 +1,8 @@
 ;
-; ICPaint.asm
+; main.asm
 ;
 ; Created: 24/11/2016 13:07:26
-; Author : AL4413
+; Author : AL4413, MV914
 ;
 
 .DEVICE ATmega128
@@ -95,10 +95,7 @@ Init:
 
 		;Configures the Analog to Digital Converter
 		ldi r16, $83 						;ADC Interrupt Disabled, ADC Enable
-		out ADCSR, r16 						;ADC single shot Mode, Prescaler:CK/8
-		
-	
-;		rcall NewScreen		
+		out ADCSR, r16 						;ADC single shot Mode, Prescaler: CK/8
 
 		call LCDTurnOn						;Sets configuration values for LCD screen, including screen size, and VSync/HSync setting.
 		call SetCursorShape					;Write Mouse pointer image data to Driver.

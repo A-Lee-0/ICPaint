@@ -1,9 +1,9 @@
-/*
- * ToolMethods.asm
- *
- *  Created: 26/11/2016 18:20:46
- *   Author: al4413
- */ 
+;
+; ToolMethods.asm
+;
+; Created: 26/11/2016 18:20:46
+; Authors: AL4413, MV914
+; 
 
 SelectColours:									;Selection Method - Checks if mouse is selecting a colour square (r19,r22) and sets the foreground colour to it 
 		push r19
