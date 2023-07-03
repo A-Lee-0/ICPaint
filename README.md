@@ -1,5 +1,5 @@
 # ICPaint
-![Photograph of the project end result.](demo.jpg)
+![Photograph of the project end result.](images/demo.jpg)
 
 ## What is this?
 This project is the result of a Microprocessor's course in my third year as a Physics undergraduate.
@@ -21,8 +21,8 @@ Unfortunately, the hardware for the project had to be disassembled after we were
 This also means I am unable to verify if the code still works.
 
 For an overview of the data flows, see the diagram below.
-For specifics of the of the port connections from the microprocessor, [see here](hardware_connections.png)
+For specifics of the of the port connections from the microprocessor, [see here](images/hardware_connections.png)
 
 
  
-![image](https://github.com/A-Lee-0/ICPaint/assets/123983127/2a67c0bf-ebc0-4d20-a2e5-0a747c37dba3)
+![image](images/hardware_data_flow_diagram.png)
